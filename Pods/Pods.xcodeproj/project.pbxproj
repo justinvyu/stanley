@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14320DA7F62667BD3BE39900 /* HTPressableButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 94050671187F26DE7182967B /* HTPressableButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0A2BB8EF143DD5D8E3A310 /* Pods-stanley-HTPressableButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D7AFD1CDBE0D8AD8928FF /* Pods-stanley-HTPressableButton-dummy.m */; };
+		1FE36939E4AC2AD7140E177B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E06DA900569E953BAA708F /* Foundation.framework */; };
+		2153A6F4A23077C2FCE96340 /* HTPressableButtonPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D99532CF137E260ACEE025E /* HTPressableButtonPrefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		263866EE74E4EED8FBC379BD /* HTPressableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AF578C956AEFC42A811BE9 /* HTPressableButton.m */; };
+		2E294BBC58693CFE428DC7C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E06DA900569E953BAA708F /* Foundation.framework */; };
+		54ACF783B7A46C4879CE9E22 /* UIColor+HTColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 893FFBA756915A7596A15E15 /* UIColor+HTColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56A1DAF4BE0CB79EB3A27768 /* UIImage+HTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0250AE5907AD9265C9A6DC /* UIImage+HTButton.m */; };
+		87A0D3618637A284E5604567 /* Pods-stanley-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC50EC0CA78177A736CB283 /* Pods-stanley-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8907A1B8594D92D95758CA05 /* Pods-stanley-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7DAEA8047858F8B4D7E3D9 /* Pods-stanley-dummy.m */; };
+		99506C5C9C730960C94404F6 /* UIColor+HTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B01C0BFB57E3264A3FBF716C /* UIColor+HTColor.m */; };
+		CAAA79FBF261CEC38BD0FD52 /* UIImage+HTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 410B05F2A9E25B1B3190687C /* UIImage+HTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3F5BF8794507C0BF8B0EB9 /* Pods-stanley-HTPressableButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A44F4841DEB84FC6C52EEB3 /* Pods-stanley-HTPressableButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70771E82E794C411E87B1B2 /* HTPressableButtonPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C084FD812CD4332757C7F /* HTPressableButtonPrefs.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A4C3646F256A25DB503D213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA00F01E1221F12817286A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A239ECC82B7B9E779E3C2261;
+			remoteInfo = "Pods-stanley-HTPressableButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E83E068DE0EE92B7CCBC2E /* HTPressableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTPressableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E06DA900569E953BAA708F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		06AF578C956AEFC42A811BE9 /* HTPressableButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTPressableButton.m; path = Classes/HTPressableButton.m; sourceTree = "<group>"; };
+		1B9F7BA3494F193531969327 /* Pods-stanley-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-stanley-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C0250AE5907AD9265C9A6DC /* UIImage+HTButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HTButton.m"; path = "Classes/UIImage+HTButton.m"; sourceTree = "<group>"; };
+		1FC50EC0CA78177A736CB283 /* Pods-stanley-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stanley-umbrella.h"; sourceTree = "<group>"; };
+		2A44F4841DEB84FC6C52EEB3 /* Pods-stanley-HTPressableButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stanley-HTPressableButton-umbrella.h"; sourceTree = "<group>"; };
+		35D7B8AA91D6B0FC26CA6F85 /* Pods-stanley-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stanley-acknowledgements.plist"; sourceTree = "<group>"; };
+		38A261B4B8BFD8F83FE3F126 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D99532CF137E260ACEE025E /* HTPressableButtonPrefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTPressableButtonPrefs.h; path = Classes/HTPressableButtonPrefs.h; sourceTree = "<group>"; };
+		3DCCAB69F8ADB4D72B9EB1B5 /* Pods-stanley-HTPressableButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-stanley-HTPressableButton.modulemap"; sourceTree = "<group>"; };
+		3DDC6F10757FE1034555D6CF /* Pods_stanley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stanley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		410B05F2A9E25B1B3190687C /* UIImage+HTButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+HTButton.h"; path = "Classes/UIImage+HTButton.h"; sourceTree = "<group>"; };
+		43877427C48214236C61A86C /* Pods-stanley-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stanley-resources.sh"; sourceTree = "<group>"; };
+		4B4C084FD812CD4332757C7F /* HTPressableButtonPrefs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTPressableButtonPrefs.m; path = Classes/HTPressableButtonPrefs.m; sourceTree = "<group>"; };
+		51E3C85FA2CB8182DF7EC67D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6589E80D90D8F6D35440EE13 /* Pods-stanley-HTPressableButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stanley-HTPressableButton.xcconfig"; sourceTree = "<group>"; };
+		76A451B064D68BDF43618CC6 /* Pods-stanley-HTPressableButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stanley-HTPressableButton-prefix.pch"; sourceTree = "<group>"; };
+		893FFBA756915A7596A15E15 /* UIColor+HTColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HTColor.h"; path = "Classes/UIColor+HTColor.h"; sourceTree = "<group>"; };
+		94050671187F26DE7182967B /* HTPressableButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTPressableButton.h; path = Classes/HTPressableButton.h; sourceTree = "<group>"; };
+		99E2DC6C8993E267173CB9FC /* Pods-stanley.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stanley.release.xcconfig"; sourceTree = "<group>"; };
+		A6F09D744E2D4ED11CEB8BD4 /* Pods-stanley.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stanley.debug.xcconfig"; sourceTree = "<group>"; };
+		B01C0BFB57E3264A3FBF716C /* UIColor+HTColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HTColor.m"; path = "Classes/UIColor+HTColor.m"; sourceTree = "<group>"; };
+		BE38AAE90987C77A51F224AD /* Pods-stanley.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-stanley.modulemap"; sourceTree = "<group>"; };
+		C3721FB4A6EDAED32D176982 /* Pods-stanley-HTPressableButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stanley-HTPressableButton-Private.xcconfig"; sourceTree = "<group>"; };
+		CBFB1BC2C034FAA294608E08 /* Pods-stanley-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stanley-environment.h"; sourceTree = "<group>"; };
+		D12D7AFD1CDBE0D8AD8928FF /* Pods-stanley-HTPressableButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-stanley-HTPressableButton-dummy.m"; sourceTree = "<group>"; };
+		DC7DAEA8047858F8B4D7E3D9 /* Pods-stanley-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-stanley-dummy.m"; sourceTree = "<group>"; };
+		E38DE9609FDE3910B2EAC269 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6693A4E539B747565ADB70E /* Pods-stanley-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stanley-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8C8DAFBFA180FC92A545EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE36939E4AC2AD7140E177B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE9C7F31F47D0D53F398B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E294BBC58693CFE428DC7C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0328B9DACA61518727EC389E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86AE8AAB1C0C5903A9436B7F /* Pods-stanley */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		261CB65DC5BB7DDA71F1D3C1 /* All */ = {
+			isa = PBXGroup;
+			children = (
+				94050671187F26DE7182967B /* HTPressableButton.h */,
+				06AF578C956AEFC42A811BE9 /* HTPressableButton.m */,
+				3D99532CF137E260ACEE025E /* HTPressableButtonPrefs.h */,
+				4B4C084FD812CD4332757C7F /* HTPressableButtonPrefs.m */,
+				893FFBA756915A7596A15E15 /* UIColor+HTColor.h */,
+				B01C0BFB57E3264A3FBF716C /* UIColor+HTColor.m */,
+				410B05F2A9E25B1B3190687C /* UIImage+HTButton.h */,
+				1C0250AE5907AD9265C9A6DC /* UIImage+HTButton.m */,
+			);
+			name = All;
+			sourceTree = "<group>";
+		};
+		4CA6F42CC2A62F25B8FBB005 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCD858D3D34DBF137484393D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86AE8AAB1C0C5903A9436B7F /* Pods-stanley */ = {
+			isa = PBXGroup;
+			children = (
+				E38DE9609FDE3910B2EAC269 /* Info.plist */,
+				BE38AAE90987C77A51F224AD /* Pods-stanley.modulemap */,
+				1B9F7BA3494F193531969327 /* Pods-stanley-acknowledgements.markdown */,
+				35D7B8AA91D6B0FC26CA6F85 /* Pods-stanley-acknowledgements.plist */,
+				DC7DAEA8047858F8B4D7E3D9 /* Pods-stanley-dummy.m */,
+				CBFB1BC2C034FAA294608E08 /* Pods-stanley-environment.h */,
+				F6693A4E539B747565ADB70E /* Pods-stanley-frameworks.sh */,
+				43877427C48214236C61A86C /* Pods-stanley-resources.sh */,
+				1FC50EC0CA78177A736CB283 /* Pods-stanley-umbrella.h */,
+				A6F09D744E2D4ED11CEB8BD4 /* Pods-stanley.debug.xcconfig */,
+				99E2DC6C8993E267173CB9FC /* Pods-stanley.release.xcconfig */,
+			);
+			name = "Pods-stanley";
+			path = "Target Support Files/Pods-stanley";
+			sourceTree = "<group>";
+		};
+		951BC51E1898E839305AF85D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38A261B4B8BFD8F83FE3F126 /* Info.plist */,
+				3DCCAB69F8ADB4D72B9EB1B5 /* Pods-stanley-HTPressableButton.modulemap */,
+				6589E80D90D8F6D35440EE13 /* Pods-stanley-HTPressableButton.xcconfig */,
+				C3721FB4A6EDAED32D176982 /* Pods-stanley-HTPressableButton-Private.xcconfig */,
+				D12D7AFD1CDBE0D8AD8928FF /* Pods-stanley-HTPressableButton-dummy.m */,
+				76A451B064D68BDF43618CC6 /* Pods-stanley-HTPressableButton-prefix.pch */,
+				2A44F4841DEB84FC6C52EEB3 /* Pods-stanley-HTPressableButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-stanley-HTPressableButton";
+			sourceTree = "<group>";
+		};
+		9751DDA00F1002CAD19CAC94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E83E068DE0EE92B7CCBC2E /* HTPressableButton.framework */,
+				3DDC6F10757FE1034555D6CF /* Pods_stanley.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E0A0C57847E93FDC468433F /* HTPressableButton */ = {
+			isa = PBXGroup;
+			children = (
+				261CB65DC5BB7DDA71F1D3C1 /* All */,
+				951BC51E1898E839305AF85D /* Support Files */,
+			);
+			path = HTPressableButton;
+			sourceTree = "<group>";
+		};
+		A8E43B5CB3A95F13CA523452 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E0A0C57847E93FDC468433F /* HTPressableButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCD858D3D34DBF137484393D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				05E06DA900569E953BAA708F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC51A81AED23929B46075053 = {
+			isa = PBXGroup;
+			children = (
+				51E3C85FA2CB8182DF7EC67D /* Podfile */,
+				4CA6F42CC2A62F25B8FBB005 /* Frameworks */,
+				A8E43B5CB3A95F13CA523452 /* Pods */,
+				9751DDA00F1002CAD19CAC94 /* Products */,
+				0328B9DACA61518727EC389E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DD050C8492CEA5D697D0A172 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A0D3618637A284E5604567 /* Pods-stanley-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5560434F0B3ABA8881B280 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14320DA7F62667BD3BE39900 /* HTPressableButton.h in Headers */,
+				2153A6F4A23077C2FCE96340 /* HTPressableButtonPrefs.h in Headers */,
+				EE3F5BF8794507C0BF8B0EB9 /* Pods-stanley-HTPressableButton-umbrella.h in Headers */,
+				54ACF783B7A46C4879CE9E22 /* UIColor+HTColor.h in Headers */,
+				CAAA79FBF261CEC38BD0FD52 /* UIImage+HTButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A3DFEFF2CEFA86AD0CD3802 /* Pods-stanley */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0CA4F88E4BA124AE4E3A71 /* Build configuration list for PBXNativeTarget "Pods-stanley" */;
+			buildPhases = (
+				B8E3A322D1C03FD81B3CBE8C /* Sources */,
+				E8C8DAFBFA180FC92A545EA0 /* Frameworks */,
+				DD050C8492CEA5D697D0A172 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A637B0A7C3F190529A00F9D /* PBXTargetDependency */,
+			);
+			name = "Pods-stanley";
+			productName = "Pods-stanley";
+			productReference = 3DDC6F10757FE1034555D6CF /* Pods_stanley.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A239ECC82B7B9E779E3C2261 /* Pods-stanley-HTPressableButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5C1107A657F5E9BE88C0E5 /* Build configuration list for PBXNativeTarget "Pods-stanley-HTPressableButton" */;
+			buildPhases = (
+				E16AC631EE8D0997A8C335F3 /* Sources */,
+				FBE9C7F31F47D0D53F398B23 /* Frameworks */,
+				FC5560434F0B3ABA8881B280 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-stanley-HTPressableButton";
+			productName = "Pods-stanley-HTPressableButton";
+			productReference = 04E83E068DE0EE92B7CCBC2E /* HTPressableButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FA00F01E1221F12817286A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = D96763C6579A36480CAB315A /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC51A81AED23929B46075053;
+			productRefGroup = 9751DDA00F1002CAD19CAC94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A3DFEFF2CEFA86AD0CD3802 /* Pods-stanley */,
+				A239ECC82B7B9E779E3C2261 /* Pods-stanley-HTPressableButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8E3A322D1C03FD81B3CBE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8907A1B8594D92D95758CA05 /* Pods-stanley-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16AC631EE8D0997A8C335F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263866EE74E4EED8FBC379BD /* HTPressableButton.m in Sources */,
+				F70771E82E794C411E87B1B2 /* HTPressableButtonPrefs.m in Sources */,
+				1A0A2BB8EF143DD5D8E3A310 /* Pods-stanley-HTPressableButton-dummy.m in Sources */,
+				99506C5C9C730960C94404F6 /* UIColor+HTColor.m in Sources */,
+				56A1DAF4BE0CB79EB3A27768 /* UIImage+HTButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A637B0A7C3F190529A00F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-stanley-HTPressableButton";
+			target = A239ECC82B7B9E779E3C2261 /* Pods-stanley-HTPressableButton */;
+			targetProxy = 8A4C3646F256A25DB503D213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40566EEDF5915C3A58F7B12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F09D744E2D4ED11CEB8BD4 /* Pods-stanley.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-stanley/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-stanley/Pods-stanley.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_stanley;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D2A43A2C9533020C7BD5517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3721FB4A6EDAED32D176982 /* Pods-stanley-HTPressableButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-stanley-HTPressableButton/Pods-stanley-HTPressableButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-stanley-HTPressableButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-stanley-HTPressableButton/Pods-stanley-HTPressableButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HTPressableButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82F313F15ABD9CC30B21549C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A95175027A709D6F99D30080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9A58FEC4B836CC208FB7555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3721FB4A6EDAED32D176982 /* Pods-stanley-HTPressableButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-stanley-HTPressableButton/Pods-stanley-HTPressableButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-stanley-HTPressableButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-stanley-HTPressableButton/Pods-stanley-HTPressableButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HTPressableButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2D35B30F7B8512A925F52C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E2DC6C8993E267173CB9FC /* Pods-stanley.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-stanley/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-stanley/Pods-stanley.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_stanley;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0CA4F88E4BA124AE4E3A71 /* Build configuration list for PBXNativeTarget "Pods-stanley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40566EEDF5915C3A58F7B12A /* Debug */,
+				D2D35B30F7B8512A925F52C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5C1107A657F5E9BE88C0E5 /* Build configuration list for PBXNativeTarget "Pods-stanley-HTPressableButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A58FEC4B836CC208FB7555 /* Debug */,
+				5D2A43A2C9533020C7BD5517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96763C6579A36480CAB315A /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F313F15ABD9CC30B21549C /* Debug */,
+				A95175027A709D6F99D30080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FA00F01E1221F12817286A4 /* Project object */;
+}
